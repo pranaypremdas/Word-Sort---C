@@ -1,0 +1,390 @@
+URL to view log online:
+https://source.eait.uq.edu.au/viewvc/csse2310-sem2-s4644467/trunk/a1/?view=log
+
+------------------------------------------------------------------------
+r1 | uqpsutto@uq.edu.au | 2021-08-03 11:17:13 +1000 (Tue, 03 Aug 2021) | 1 line
+Changed paths:
+   A /prac2
+   A /trunk
+   A /trunk/a1
+   A /trunk/a3
+   A /trunk/a4
+
+Initial repository structure
+
+
+------------------------------------------------------------------------
+r3 | s4644467 | 2021-08-06 19:14:04 +1000 (Fri, 06 Aug 2021) | 2 lines
+Changed paths:
+   A /trunk/a1/unjumble.c
+
+Setting out assignment structure
+
+
+Index: unjumble.c
+ unjumble.c |    3 +++
+ 1 file changed, 3 insertions(+)
+
+------------------------------------------------------------------------
+r5 | s4644467 | 2021-08-10 00:12:30 +1000 (Tue, 10 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Setting out the program
+
+
+Index: unjumble.c
+ unjumble.c |   13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+------------------------------------------------------------------------
+r6 | s4644467 | 2021-08-10 00:50:27 +1000 (Tue, 10 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Update
+
+
+Index: unjumble.c
+ unjumble.c |   19 ++++++++++++++++++-
+ 1 file changed, 18 insertions(+), 1 deletion(-)
+
+------------------------------------------------------------------------
+r7 | s4644467 | 2021-08-10 01:26:56 +1000 (Tue, 10 Aug 2021) | 1 line
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+
+
+Index: unjumble.c
+ unjumble.c |    6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+------------------------------------------------------------------------
+r8 | s4644467 | 2021-08-12 01:44:44 +1000 (Thu, 12 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Update 1
+
+
+Index: unjumble.c
+ unjumble.c |   64 ++++++++++++++++++++++++++++++++++++++++++++++++-------------
+ 1 file changed, 51 insertions(+), 13 deletions(-)
+
+------------------------------------------------------------------------
+r9 | s4644467 | 2021-08-12 02:06:43 +1000 (Thu, 12 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Update 2
+
+
+Index: unjumble.c
+ unjumble.c |   15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+
+------------------------------------------------------------------------
+r10 | s4644467 | 2021-08-12 13:12:36 +1000 (Thu, 12 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Update 3
+
+
+Index: unjumble.c
+ unjumble.c |   37 ++++++++++++++++++++-----------------
+ 1 file changed, 20 insertions(+), 17 deletions(-)
+
+------------------------------------------------------------------------
+r11 | s4644467 | 2021-08-12 20:44:19 +1000 (Thu, 12 Aug 2021) | 1 line
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+
+
+Index: unjumble.c
+ unjumble.c |   14 ++++++++------
+ 1 file changed, 8 insertions(+), 6 deletions(-)
+
+------------------------------------------------------------------------
+r12 | s4644467 | 2021-08-13 00:07:00 +1000 (Fri, 13 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Fixed Error Bugs - only dictionary check left
+
+
+Index: unjumble.c
+ unjumble.c |   63 +++++++++++++++++++++++++++++++++++++++++++------------------
+ 1 file changed, 45 insertions(+), 18 deletions(-)
+
+------------------------------------------------------------------------
+r13 | s4644467 | 2021-08-13 00:51:11 +1000 (Fri, 13 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Issue with only letters fixed. i.e. providing valid letter argument failed as it did not return when it was valid 
+
+
+Index: unjumble.c
+ unjumble.c |   23 ++++++++++++-----------
+ 1 file changed, 12 insertions(+), 11 deletions(-)
+
+------------------------------------------------------------------------
+r14 | s4644467 | 2021-08-13 01:03:28 +1000 (Fri, 13 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Added comments
+
+
+Index: unjumble.c
+ unjumble.c |    4 ++++
+ 1 file changed, 4 insertions(+)
+
+------------------------------------------------------------------------
+r15 | s4644467 | 2021-08-13 03:27:23 +1000 (Fri, 13 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Fixed bugs found in argument input
+
+
+Index: unjumble.c
+ unjumble.c |   49 +++++++++++++++++++++++++++++++++++++------------
+ 1 file changed, 37 insertions(+), 12 deletions(-)
+
+------------------------------------------------------------------------
+r16 | s4644467 | 2021-08-13 03:41:01 +1000 (Fri, 13 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Removed redundant code and comments
+
+
+Index: unjumble.c
+ unjumble.c |   21 ++++-----------------
+ 1 file changed, 4 insertions(+), 17 deletions(-)
+
+------------------------------------------------------------------------
+r17 | s4644467 | 2021-08-14 14:26:55 +1000 (Sat, 14 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Added dictionary check in validate_command() function
+
+
+Index: unjumble.c
+ unjumble.c |   14 +++++++++-----
+ 1 file changed, 9 insertions(+), 5 deletions(-)
+
+------------------------------------------------------------------------
+r18 | s4644467 | 2021-08-17 00:35:48 +1000 (Tue, 17 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Fixed dictionary bug where additional argument did not output as error. Other small bugs also fixed.
+
+
+Index: unjumble.c
+ unjumble.c |   90 ++++++++++++++++++++++++++++++++++++++++---------------------
+ 1 file changed, 60 insertions(+), 30 deletions(-)
+
+------------------------------------------------------------------------
+r19 | s4644467 | 2021-08-17 01:41:54 +1000 (Tue, 17 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Fixed quoatation error in print statements. Also changed printf to fprintf
+
+
+Index: unjumble.c
+ unjumble.c |   41 +++++++++++++++++++++--------------------
+ 1 file changed, 21 insertions(+), 20 deletions(-)
+
+------------------------------------------------------------------------
+r20 | s4644467 | 2021-08-17 02:22:59 +1000 (Tue, 17 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+removed comments
+
+
+Index: unjumble.c
+ unjumble.c |   45 +++++++++++----------------------------------
+ 1 file changed, 11 insertions(+), 34 deletions(-)
+
+------------------------------------------------------------------------
+r21 | s4644467 | 2021-08-17 04:43:29 +1000 (Tue, 17 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Fixed all style issues
+
+
+Index: unjumble.c
+ unjumble.c |  176 ++++++++++++++++++++++++++++++++++++-------------------------
+ 1 file changed, 106 insertions(+), 70 deletions(-)
+
+------------------------------------------------------------------------
+r22 | s4644467 | 2021-08-17 20:13:16 +1000 (Tue, 17 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Added code for reading vaid commandline. Also setup sorting words function
+
+
+Index: unjumble.c
+ unjumble.c |   71 ++++++++++++++++++++++++++++++++++++++++++++++++++++++-------
+ 1 file changed, 63 insertions(+), 8 deletions(-)
+
+------------------------------------------------------------------------
+r23 | s4644467 | 2021-08-18 01:25:07 +1000 (Wed, 18 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Added new changes to validate command function as a chnange in the task sheet was made
+
+
+Index: unjumble.c
+ unjumble.c |  129 ++++++++++++++++++++++++++++++++++++++-----------------------
+ 1 file changed, 82 insertions(+), 47 deletions(-)
+
+------------------------------------------------------------------------
+r24 | s4644467 | 2021-08-18 03:00:31 +1000 (Wed, 18 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Added extra helper functions to reduce line count. Sorting the words without any argument is left
+
+
+Index: unjumble.c
+ unjumble.c |   76 +++++++++++++++++++++++++++++--------------------------------
+ 1 file changed, 37 insertions(+), 39 deletions(-)
+
+------------------------------------------------------------------------
+r25 | s4644467 | 2021-08-18 15:57:59 +1000 (Wed, 18 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Added functionality for reading the file and printing out all words
+
+
+Index: unjumble.c
+ unjumble.c |   32 +++++++++++++++++++++-----------
+ 1 file changed, 21 insertions(+), 11 deletions(-)
+
+------------------------------------------------------------------------
+r26 | s4644467 | 2021-08-19 12:37:38 +1000 (Thu, 19 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Unjumble partially works
+
+
+Index: unjumble.c
+ unjumble.c |   57 +++++++++++++++++++++++++++++++++++++++++----------------
+ 1 file changed, 41 insertions(+), 16 deletions(-)
+
+------------------------------------------------------------------------
+r27 | s4644467 | 2021-08-19 21:56:14 +1000 (Thu, 19 Aug 2021) | 2 lines
+Changed paths:
+   A /trunk/a1/Makefile
+   M /trunk/a1/unjumble.c
+
+unjumble updated but not sure if it works as it is not passing the tests for sorting. No difference found in test outcome compared to the output from the function. Waiting on next prac to get tutor help to determine the cause of this.
+
+
+Index: Makefile
+ Makefile |    2 ++
+ 1 file changed, 2 insertions(+)
+Index: unjumble.c
+ unjumble.c |   67 +++++++++++++++++++++++++++++++++++--------------------------
+ 1 file changed, 39 insertions(+), 28 deletions(-)
+
+------------------------------------------------------------------------
+r28 | s4644467 | 2021-08-19 22:06:11 +1000 (Thu, 19 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+changed fprintf(stderr) to fprintf(stdout) when printing word
+
+
+Index: unjumble.c
+ unjumble.c |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+------------------------------------------------------------------------
+r29 | s4644467 | 2021-08-20 15:07:40 +1000 (Fri, 20 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Include argument helper method created. Testing passes all the edge cases. Next task: create structs to store the words to filter and the use the include argument if needed.
+
+
+Index: unjumble.c
+ unjumble.c |  108 +++++++++++++++++++++++++++++++++++--------------------------
+ 1 file changed, 63 insertions(+), 45 deletions(-)
+
+------------------------------------------------------------------------
+r30 | s4644467 | 2021-08-21 11:01:00 +1000 (Sat, 21 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Added struct to store the words
+
+
+Index: unjumble.c
+ unjumble.c |   14 +++++++++++++-
+ 1 file changed, 13 insertions(+), 1 deletion(-)
+
+------------------------------------------------------------------------
+r31 | s4644467 | 2021-08-21 11:19:18 +1000 (Sat, 21 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Implemented include method and passed test for include
+
+
+Index: unjumble.c
+ unjumble.c |   24 ++++++++++++++----------
+ 1 file changed, 14 insertions(+), 10 deletions(-)
+
+------------------------------------------------------------------------
+r32 | s4644467 | 2021-08-22 18:35:30 +1000 (Sun, 22 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Added new word storage system i.e. char** it was used instead of struct for simplicity purposes
+
+
+Index: unjumble.c
+ unjumble.c |   86 +++++++++++++++++++++++++++++++++++++++----------------------
+ 1 file changed, 56 insertions(+), 30 deletions(-)
+
+------------------------------------------------------------------------
+r33 | s4644467 | 2021-08-22 21:13:41 +1000 (Sun, 22 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Passing all tests
+
+
+Index: unjumble.c
+ unjumble.c |   87 +++++++++++++++++++++++++++++++++++++++----------------------
+ 1 file changed, 56 insertions(+), 31 deletions(-)
+
+------------------------------------------------------------------------
+r34 | s4644467 | 2021-08-26 11:34:23 +1000 (Thu, 26 Aug 2021) | 2 lines
+Changed paths:
+   M /trunk/a1/unjumble.c
+
+Reduced line count by adding more helper methods
+
+
+Index: unjumble.c
+ unjumble.c |  121 ++++++++++++++++++++++++++-----------------------------------
+ 1 file changed, 53 insertions(+), 68 deletions(-)
+
+------------------------------------------------------------------------
